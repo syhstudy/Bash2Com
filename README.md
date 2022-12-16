@@ -4,9 +4,9 @@ Improving Bash Comment Generation via Data Augmentation and Semantic-Aware
 
 Just run "eval.py" to get the paper results.
 
-![image](https://user-images.githubusercontent.com/93321396/208079080-46c2432a-d027-4169-b371-d598db0b1753.png)
-
+![image](https://user-images.githubusercontent.com/93321396/208080684-921244f7-9400-404b-a2c3-c43322e8a4dc.png)
 
 Just run "run.py" to rerun the experiment.
 
-![image](https://user-images.githubusercontent.com/93321396/208079348-396d85cc-f690-4b8d-a86c-6d67321a3400.png)
+![image](https://user-images.githubusercontent.com/93321396/208080590-80fa366a-27c0-42ae-b2b2-065a66017da9.png)
+
