@@ -26,6 +26,10 @@ $$\\delta \\cdot \\partial _{x}L(x,y)=\\underset{\\delta :\\left \\| \\delta  \\
 where $\left \| \cdot  \right \| _{q}$ is the dual norm of $\left \| \cdot  \right \| _{p}$ , defined as:
 $$\\left \\| \\mathbf{z}   \\right \\| _{q}=sup \\{\\mathbf{z}^{\\top } \\mathbf{x}\\mid \\left \\| \\mathbf{x}   \\right \\| _{p}\\le 1\\}$$
 
+when $p=1$ is $q=\infty $, there is usually $\\frac{1}{p}+ \\frac{1}{q}= 1$.
+
+
+
 
 References
 ==========================================
