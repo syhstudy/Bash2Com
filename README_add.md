@@ -15,11 +15,17 @@ Regularization in data augmentation
 ==========================================
 The actual updated loss function of NP-GD can be expressed as follows (Aleksander Madry et al.[<sup>1</sup>](#refer-id) proposed that PGD method does not use normal example, but TRADES et al.[<sup>2</sup>](#refer-id) pointed out that using normal example can increase the accuracy of the model. Here adopts the loss function of adding normal example):
 $$\\tilde{L} (x,y):=\\frac{1}{2} (L(x,y)+L(x+\\delta ,y))$$
+
 where $L(x,y)$ represents the loss function of the training process. $\delta$ represents the perturbation superimposed on the input. $y$ is the label of the example.
 If the perturbation is relatively small (most of the perturbations used in adversarial training are relatively small at present), the first-order Taylor expansion can be used to approximate it:
 $$\\tilde{L} (x,y)\\approx \\frac{1}{2} (L(x,y)+L(x,y)+\\delta \\cdot \\partial _{x}L(x,y))=L(x,y)+\\frac{1}{2} \\delta \\cdot \\partial _{x}L(x,y)$$
 
 where the second term is the change of loss function caused by disturbance:
+$$\\delta \\cdot \\partial _{x}L(x,y)=\\underset{\\delta :\\left \\| \\delta  \\right \\| _{p}\\le \\epsilon }{max} \\left | L(x+\\delta ,y)-L(x,y) \\right | \\approx \\underset{\\delta :\\left \\| \\delta  \\right \\| _{p}\\le \\epsilon }{max}\\left | \\partial _{x}L\\cdot \\delta   \\right | =\\epsilon \\left \\| \\partial _{x}L \\right \\| _{q}$$
+
+
+
+
 
 References
 ==========================================
