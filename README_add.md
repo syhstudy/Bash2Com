@@ -41,7 +41,8 @@ NP-GD can improve the stability of the normalization process while retaining the
 
 The experimental results in this paper can verify the feasibility of NP-GD:
 ![image](https://user-images.githubusercontent.com/93321396/218145656-62b81025-63a9-4641-b336-98f08c9cb397.png)
-where 'with PGD' is $L2$ normalization, 'Bash2CCom' is $L1$ and $L2$ normalization.
+
+where 'with PGD' is $L2$ regularization, 'Bash2Com' is $L1$ and $L2$ regularization.
 
 III. References
 ==========================================
