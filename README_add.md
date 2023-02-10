@@ -19,6 +19,7 @@ where $L(x,y)$ represents the loss function of the training process. $\delta$ re
 If the perturbation is relatively small (most of the perturbations used in adversarial training are relatively small at present), the first-order Taylor expansion can be used to approximate it:
 $$\\tilde{L} (x,y)\\approx \\frac{1}{2} (L(x,y)+L(x,y)+\\delta \\cdot \\partial _{x}L(x,y))=L(x,y)+\\frac{1}{2} \\delta \\cdot \\partial _{x}L(x,y)$$
 
+where the second term is the change of loss function caused by disturbance:
 
 References
 ==========================================
