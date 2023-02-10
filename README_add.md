@@ -14,4 +14,4 @@ Comparison result with the third data split:
 Regularization in data augmentation
 ==========================================
 The actual updated loss function of NP-GD can be expressed as follows (Aleksander Madry and others proposed that PGD confrontation training does not use normal samples, but TRADES and others pointed out that using normal samples can increase the accuracy of the model. Here adopts the loss function of adding normal samples):
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mover><mi>L</mi><mo stretchy="false">~</mo></mover></mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false">)</mo><mo>:=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false">)</mo><mo>+</mo><mi>L</mi><mo stretchy="false">(</mo><mi>x</mi><mo>+</mo><mi>δ</mi><mo>,</mo><mi>y</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo></math>
+\\tilde{L} (x,y):=\\frac{1}{2} (L(x,y)+L(x+\\delta ,y))
