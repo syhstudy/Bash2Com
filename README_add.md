@@ -13,7 +13,7 @@ Comparison result with the third data split:
 
 Regularization in data augmentation
 ==========================================
-The actual updated loss function of NP-GD can be expressed as follows (Aleksander Madry et al.[<sup>1</sup>](#refer-id) proposed that PGD method does not use normal example, but TRADES et al.[<sup>2</sup>](#refer-id) pointed out that using normal example can increase the accuracy of the model. Here adopts the loss function of adding normal example):
+The actual updated loss function of adversarial training can be expressed as follows (Aleksander Madry et al.[<sup>1</sup>](#refer-id) proposed that PGD method does not use normal example, but TRADES et al.[<sup>2</sup>](#refer-id) pointed out that using normal example can increase the accuracy of the model. Here adopts the loss function of adding normal example):
 $$\\tilde{L} (x,y):=\\frac{1}{2} (L(x,y)+L(x+\\delta ,y))$$
 
 where $L(x,y)$ represents the loss function of the training process. $\delta$ represents the perturbation superimposed on the input. $y$ is the label of the example.
@@ -30,6 +30,7 @@ when $p=1$ is $q=\infty $, there is usually $\\frac{1}{p}+ \\frac{1}{q}= 1$.
 Substitute the result in Formula 3 into Formula 2:
 $$\\tilde{L}(x,y) \\approx L(x,y)+\\frac{\\epsilon }{2} \\left \\| \\partial _{x}L  \\right \\| _{q}$$
 
+Adversarial training becomes adding a special regularization term to the loss function, which is also proved by the method of enhancing the robustness of the model based on local linear regularization (Local Linear Regularization[<sup>1</sup>](#refer-id), Curvature Regularization[<sup>1</sup>](#refer-id)).
 
 References
 ==========================================
