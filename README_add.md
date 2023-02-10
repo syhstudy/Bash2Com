@@ -13,5 +13,10 @@ Comparison result with the third data split:
 
 Regularization in data augmentation
 ==========================================
-The actual updated loss function of NP-GD can be expressed as follows (Aleksander Madry and others proposed that PGD confrontation training does not use normal samples, but TRADES and others pointed out that using normal samples can increase the accuracy of the model. Here adopts the loss function of adding normal samples):
+The actual updated loss function of NP-GD can be expressed as follows (Aleksander Madry et al.[<sup>1</sup>] proposed that PGD confrontation training does not use normal samples, but TRADES and others pointed out that using normal samples can increase the accuracy of the model. Here adopts the loss function of adding normal samples):
 $$\\tilde{L} (x,y):=\\frac{1}{2} (L(x,y)+L(x+\\delta ,y))$$
+
+
+References
+==========================================
+[1] A. Madry, A. Makelov, L. Schmidt, D. Tsipras, and A. Vladu, “Towards deep learning models resistant to adversarial attacks,” 6th International Conference on Learning Representations, ICLR 2018 - Conference Track Proceedings, 2018.
