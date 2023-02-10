@@ -27,8 +27,8 @@ where $\left \| \cdot  \right \| _{q}$ is the dual norm of $\left \| \cdot  \rig
 $$\\left \\| \\mathbf{z}   \\right \\| _{q}=sup \\{\\mathbf{z}^{\\top } \\mathbf{x}\\mid \\left \\| \\mathbf{x}   \\right \\| _{p}\\le 1\\}$$
 
 when $p=1$ is $q=\infty $, there is usually $\\frac{1}{p}+ \\frac{1}{q}= 1$.
-
-
+Substitute the result in Formula 3 into Formula 2:
+$$\tilde{L}(x,y) \approx L(x,y)+\frac{\epsilon }{2} \left \| \partial _{x}L  \right \| _{q}$$
 
 
 References
