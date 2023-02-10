@@ -34,13 +34,14 @@ Adversarial training becomes adding a special regularization term to the loss fu
 
 Why use L1 regularization?
 
-The normalization method used in PGD is $L_2$ normalization. However, the solutions obtained by $L_2$ normalization are usually not sparse and do not guarantee to reduce the complexity of the model. 
-To alleviate this problem, our proposed NP-GD takes the $L_1$ normalization method into account, which first performs $L_1$ normalization on the vectors and then applies $L_2$ normalization to the generated vectors.
-NP-GD has the advantage of first using $L_1$ normalization to reduce the effect of large values on the vectors, and then applying $L_2$ normalization to ensure that the resulting vectors have a consistent length and sum to 1. 
-NP-GD can improve the stability of the normalization process while retaining the advantages of $L_1$ and $L_2$ normalization.
+The regularization method used in PGD is $L2$ regularization. However, the solutions obtained by $L2$ regularization are usually not sparse and do not guarantee to reduce the complexity of the model. 
+To alleviate this problem, our proposed NP-GD takes the $L1$ regularization method into account, which first performs $L1$ regularization on the vectors and then applies $L2$ normalization to the generated vectors.
+NP-GD has the advantage of first using $L1$ normalization to reduce the effect of large values on the vectors, and then applying $L2$ normalization to ensure that the resulting vectors have a consistent length and sum to 1. 
+NP-GD can improve the stability of the normalization process while retaining the advantages of $L1$ and $L2$ normalization.
 
 The experimental results in this paper can verify the feasibility of NP-GD:
-
+![image](https://user-images.githubusercontent.com/93321396/218145656-62b81025-63a9-4641-b336-98f08c9cb397.png)
+where 'with PGD' is $L2$ normalization, 'Bash2CCom' is $L1$ and $L2$ normalization.
 
 III. References
 ==========================================
