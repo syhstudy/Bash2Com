@@ -11,7 +11,7 @@ Comparison result with the second data split:
 Comparison result with the third data split:
 ![image](https://user-images.githubusercontent.com/93321396/218024395-dbc4d5be-4138-4e67-9800-b4f405064a98.png)
 
-II. Regularization in data augmentation
+II. L1 regularization in data augmentation
 ==========================================
 The actual updated loss function of adversarial training can be expressed as follows (Aleksander Madry et al.[<sup>1</sup>](#refer-id) proposed that PGD method does not use normal example, but TRADES et al.[<sup>2</sup>](#refer-id) pointed out that using normal example can increase the accuracy of the model. Here adopts the loss function of adding normal example.):
 $$\\tilde{L} (x,y):=\\frac{1}{2} (L(x,y)+L(x+\\delta ,y))$$
@@ -31,6 +31,16 @@ Substitute the result in Formula 3 into Formula 2:
 $$\\tilde{L}(x,y) \\approx L(x,y)+\\frac{\\epsilon }{2} \\left \\| \\partial _{x}L  \\right \\| _{q}$$
 
 Adversarial training becomes adding a special regularization term to the loss function, which is also proved by the method of enhancing the robustness of the model based on local linear regularization (Local Linear Regularization[<sup>3</sup>](#refer-id), Curvature Regularization[<sup>4</sup>](#refer-id)).
+
+Why use L1 regularization?
+
+The normalization method used in PGD is $L_2$ normalization. However, the solutions obtained by $L_2$ normalization are usually not sparse and do not guarantee to reduce the complexity of the model. 
+To alleviate this problem, our proposed NP-GD takes the $L_1$ normalization method into account, which first performs $L_1$ normalization on the vectors and then applies $L_2$ normalization to the generated vectors.
+NP-GD has the advantage of first using $L_1$ normalization to reduce the effect of large values on the vectors, and then applying $L_2$ normalization to ensure that the resulting vectors have a consistent length and sum to 1. 
+NP-GD can improve the stability of the normalization process while retaining the advantages of $L_1$ and $L_2$ normalization.
+
+The experimental results in this paper can verify the feasibility of NP-GD:
+
 
 III. References
 ==========================================
