@@ -13,11 +13,11 @@ Comparison result with the third data split:
 
 Regularization in data augmentation
 ==========================================
-The actual updated loss function of NP-GD can be expressed as follows (Aleksander Madry et al.[<sup>1</sup>](#refer-id) proposed that PGD method does not use normal examples, but TRADES et al.[<sup>2</sup>](#refer-id) pointed out that using normal examples can increase the accuracy of the model. Here adopts the loss function of adding normal examples):
+The actual updated loss function of NP-GD can be expressed as follows (Aleksander Madry et al.[<sup>1</sup>](#refer-id) proposed that PGD method does not use normal example, but TRADES et al.[<sup>2</sup>](#refer-id) pointed out that using normal example can increase the accuracy of the model. Here adopts the loss function of adding normal example):
 $$\\tilde{L} (x,y):=\\frac{1}{2} (L(x,y)+L(x+\\delta ,y))$$
 where $L(x,y)$ represents the loss function of the training process. $\delta$ represents the perturbation superimposed on the input. $y$ is the label of the example.
-
-
+If the perturbation is relatively small (most of the perturbations used in adversarial training are relatively small at present), the first-order Taylor expansion can be used to approximate it:
+$$\\tilde{L} (x,y)\\approx \\frac{1}{2} (L(x,y)+L(x,y)+\\delta \\cdot \\partial _{x}L(x,y))=L(x,y)+\\frac{1}{2} \\delta \\cdot \\partial _{x}L(x,y)$$
 
 
 References
