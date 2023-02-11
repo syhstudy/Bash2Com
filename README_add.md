@@ -48,9 +48,8 @@ III. References
 <div id="refer-id"></div>
 [1] A. Madry, A. Makelov, L. Schmidt, D. Tsipras, and A. Vladu, “Towards deep learning models resistant to adversarial attacks,” 6th International Conference on Learning Representations, ICLR 2018 - Conference Track Proceedings, 2018.
 
+[2] Hongyang Zhang, Yaodong Yu, Jiantao Jiao, Eric P. Xing, Laurent El Ghaoui, Michael I. Jordan. Theoretically Principled Trade-off between Robustness and Accuracy. ICML 2019.
 
-[2] Hongyang Zhang, Yaodong Yu, Jiantao Jiao, Eric P. Xing, Laurent El Ghaoui, Michael I. Jordan. Theoretically Principled Trade-off between Robustness and Accuracy. ICML 2019. https://arxiv.org/abs/1802.01421
+[3] Chongli Qin, James Martens, Sven Gowal, Dilip Krishnan, Krishnamurthy Dvijotham, Alhussein Fawzi, Soham De, Robert Stanforth, and Pushmeet Kohli. Adversarial robustness through local linearization. In NeurIPS, 2019.
 
-[3] Chongli Qin, James Martens, Sven Gowal, Dilip Krishnan, Krishnamurthy Dvijotham, Alhussein Fawzi, Soham De, Robert Stanforth, and Pushmeet Kohli. Adversarial robustness through local linearization. In NeurIPS, 2019. https://arxiv.org/abs/1907.02610
-
-[4] Seyed-Mohsen Moosavi-Dezfooli; Alhussein Fawzi; Jonathan Uesato; Pascal Frossard. Robustness via Curvature Regularization, and Vice Versa. CVPR 2019 https://ieeexplore.ieee.org/document/8953595
+[4] Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, Jonathan Uesato, Pascal Frossard. Robustness via Curvature Regularization, and Vice Versa. CVPR 2019.
