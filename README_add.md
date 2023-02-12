@@ -21,7 +21,7 @@ If the perturbation is relatively small (most of the perturbations used in adver
 $$\\tilde{L} (x,y)\\approx \\frac{1}{2} (L(x,y)+L(x,y)+\\delta \\cdot \\partial _{x}L(x,y))=L(x,y)+\\frac{1}{2} \\delta \\cdot \\partial _{x}L(x,y)$$
 
 where the second term is the change of loss function caused by perturbation:
-$$\\delta \\cdot \\partial _{x}L(x,y)=\\underset{\\delta :\\left \\| \\delta  \\right \\| _{p}\\le \\epsilon }{max} \\left | L(x+\\delta ,y)-L(x,y) \\right | \\approx \\underset{\\delta :\\left \\| \\delta  \\right \\| _{p}\\le \\epsilon }{max}\\left | \\partial _{x}L\\cdot \\delta   \\right | =\\epsilon \\left \\| \\partial _{x}L \\right \\| _{q}$$
+$$\\delta \\cdot \\partial _ {x}L(x,y)=\\underset{\\delta :\\left \\| \\delta  \\right \\| _{p}\\le \\epsilon }{max} \\left | L(x+\\delta ,y)-L(x,y) \\right | \\approx \\underset{\\delta :\\left \\| \\delta  \\right \\| _{p}\\le \\epsilon }{max}\\left | \\partial _{x}L\\cdot \\delta   \\right | =\\epsilon \\left \\| \\partial _{x}L \\right \\| _{q}$$
 
 where $\left \| \cdot  \right \| _{q}$ is the dual norm of $\left \| \cdot  \right \| _{p}$ , defined as:
 $$\\left \\| \\mathbf{z}   \\right \\| _{q}=sup \\{\\mathbf{z}^{\\top } \\mathbf{x}\\mid \\left \\| \\mathbf{x}   \\right \\| _{p}\\le 1\\}$$
