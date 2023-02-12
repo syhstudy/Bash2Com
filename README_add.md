@@ -34,9 +34,9 @@ $$\\tilde{L}(x,y) \\approx L(x,y)+\\frac{\\epsilon }{2} \\left \\| \\partial _{x
 Adversarial training becomes adding a special regularization term to the loss function, which is also proved by the method of enhancing the robustness of the model based on local linear regularization (Local Linear Regularization[<sup>3</sup>](#refer-id), Curvature Regularization[<sup>4</sup>](#refer-id)).
 
 The regularization method used in PGD is $L2$ regularization. However, the solutions obtained by $L2$ regularization are usually not sparse and do not guarantee to reduce the complexity of the model. 
-To alleviate this problem, our proposed NP-GD takes the $L1$ regularization method into account, which first performs $L1$ regularization on the vectors and then applies $L2$ normalization to the generated vectors.
-NP-GD has the advantage of first using $L1$ normalization to reduce the effect of large values on the vectors, and then applying $L2$ normalization to ensure that the resulting vectors have a consistent length and sum to 1. 
-NP-GD can improve the stability of the normalization process while retaining the advantages of $L1$ and $L2$ normalization.
+To alleviate this problem, our proposed NP-GD takes the $L1$ regularization method into account, which first performs $L1$ regularization on the vectors and then applies $L2$ regularization to the generated vectors.
+NP-GD has the advantage of first using $L1$ regularization to reduce the effect of large values on the vectors, and then applying $L2$ regularization to ensure that the resulting vectors have a consistent length and sum to 1. 
+NP-GD can improve the stability of the regularization process while retaining the advantages of $L1$ and $L2$ regularization.
 
 The experimental results in this paper can verify the feasibility of NP-GD:
 <img src="https://user-images.githubusercontent.com/93321396/218145656-62b81025-63a9-4641-b336-98f08c9cb397.png" width = "700" />
