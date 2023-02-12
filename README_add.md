@@ -39,8 +39,7 @@ NP-GD has the advantage of first using $L1$ normalization to reduce the effect o
 NP-GD can improve the stability of the normalization process while retaining the advantages of $L1$ and $L2$ normalization.
 
 The experimental results in this paper can verify the feasibility of NP-GD:
-![image](https://user-images.githubusercontent.com/93321396/218145656-62b81025-63a9-4641-b336-98f08c9cb397.png)
-<img src="https://user-images.githubusercontent.com/93321396/218145656-62b81025-63a9-4641-b336-98f08c9cb397.png" width = "500" />
+<img src="https://user-images.githubusercontent.com/93321396/218145656-62b81025-63a9-4641-b336-98f08c9cb397.png" width = "700" />
 
 where 'with PGD' is $L2$ regularization, 'Bash2Com' is $L1$ and $L2$ regularization.
 
