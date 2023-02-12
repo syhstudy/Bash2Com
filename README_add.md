@@ -9,7 +9,7 @@ Comparison result with the second data split:
 ![image](https://user-images.githubusercontent.com/93321396/218305369-1b777d49-27e1-44d3-8c9b-1580d6eb8cb0.png)
 
 Comparison result with the third data split:
-![image](https://user-images.githubusercontent.com/93321396/218024395-dbc4d5be-4138-4e67-9800-b4f405064a98.png)
+![image](https://user-images.githubusercontent.com/93321396/218305980-14afa1e1-260c-4107-a5c5-62081d6149a9.png)
 
 II. L1 regularization in data augmentation
 ==========================================
