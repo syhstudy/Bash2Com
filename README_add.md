@@ -1,4 +1,4 @@
-I. Comparison results (cross-validation)
+I. Comparison results
 ==========================================
 We randomly split our datasets three times with different random seeds. The detailed comparison result are shown as follows and the comparison results confirm the effectiveness of our proposed method.
 
