@@ -18,18 +18,18 @@ $$\\tilde{L} (x,y):=\\frac{1}{2} (L(x,y)+L(x+\\delta ,y))$$
 
 where $L(x,y)$ represents the loss function of the training process. $\delta$ represents the perturbation superimposed on the input. $y$ is the label of the example.
 If the perturbation is relatively small (most of the perturbations used in adversarial training are relatively small at present), the first-order Taylor expansion (It is assumed that the loss function is locally linear near the input, the same as that of FGSM adversarial training.) can be used to approximate it:
-$$\\tilde{L} (x,y)\\approx \\frac{1}{2} (L(x,y)+L(x,y)+\\delta \\cdot \\partial _{x}L(x,y))=L(x,y)+\\frac{1}{2} \\delta \\cdot \\partial _{x}L(x,y)$$
+$$\\tilde{L} (x,y)\\approx \\frac{1}{2} (L(x,y)+L(x,y)+\\delta \\cdot \\partial _ {x}L(x,y))=L(x,y)+\\frac{1}{2} \\delta \\cdot \\partial _ {x}L(x,y)$$
 
 where the second term is the change of loss function caused by perturbation:
-$$\\delta \\cdot \\partial _ {x}L(x,y)=\\underset{\\delta :\\left \\| \\delta  \\right \\| _{p}\\le \\epsilon }{max} \\left | L(x+\\delta ,y)-L(x,y) \\right | \\approx \\underset{\\delta :\\left \\| \\delta  \\right \\| _{p}\\le \\epsilon }{max}\\left | \\partial _{x}L\\cdot \\delta   \\right | =\\epsilon \\left \\| \\partial _{x}L \\right \\| _{q}$$
+$$\\delta \\cdot \\partial _ {x}L(x,y)=\\underset{\\delta :\\left \\| \\delta  \\right \\| _ {p}\\le \\epsilon }{max} \\left | L(x+\\delta ,y)-L(x,y) \\right | \\approx \\underset{\\delta :\\left \\| \\delta  \\right \\| _ {p}\\le \\epsilon }{max}\\left | \\partial _ {x}L\\cdot \\delta   \\right | =\\epsilon \\left \\| \\partial _ {x}L \\right \\| _ {q}$$
 
-where $\left \| \cdot  \right \| _{q}$ is the dual norm of $\left \| \cdot  \right \| _{p}$ , defined as:
-$$\\left \\| \\mathbf{z}   \\right \\| _{q}=sup \\{\\mathbf{z}^{\\top } \\mathbf{x}\\mid \\left \\| \\mathbf{x}   \\right \\| _{p}\\le 1\\}$$
+where $\left \| \cdot  \right \| _ {q}$ is the dual norm of $\left \| \cdot  \right \| _ {p}$ , defined as:
+$$\\left \\| \\mathbf{z}   \\right \\| _ {q}=sup \\{\\mathbf{z}^{\\top } \\mathbf{x}\\mid \\left \\| \\mathbf{x}   \\right \\| _ {p}\\le 1\\}$$
 
 when $p=1$ is $q=\infty $, there is usually $\\frac{1}{p}+ \\frac{1}{q}= 1$.
 
 Substitute the result in Formula 3 into Formula 2:
-$$\\tilde{L}(x,y) \\approx L(x,y)+\\frac{\\epsilon }{2} \\left \\| \\partial _{x}L  \\right \\| _{q}$$
+$$\\tilde{L}(x,y) \\approx L(x,y)+\\frac{\\epsilon }{2} \\left \\| \\partial _ {x}L  \\right \\| _ {q}$$
 
 Adversarial training becomes adding a special regularization term to the loss function, which is also proved by the method of enhancing the robustness of the model based on local linear regularization (Local Linear Regularization[<sup>3</sup>](#refer-id), Curvature Regularization[<sup>4</sup>](#refer-id)).
 
