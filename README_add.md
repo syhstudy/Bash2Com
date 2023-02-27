@@ -3,13 +3,13 @@ I. Comparison results
 We randomly split our datasets three times with different random seeds. The detailed comparison result are shown as follows and the comparison results confirm the effectiveness of our proposed method.
 
 Comparison result with the first data split(recorded in the paper):
-![image](https://user-images.githubusercontent.com/93321396/218019291-af236217-215a-46a1-ae34-73484908ab64.png)
+![image](https://user-images.githubusercontent.com/93321396/221564727-e27048ff-06aa-469f-9b7f-69176a5aa386.png)
 
 Comparison result with the second data split:
-![image](https://user-images.githubusercontent.com/93321396/218305369-1b777d49-27e1-44d3-8c9b-1580d6eb8cb0.png)
+![image](https://user-images.githubusercontent.com/93321396/221564639-b9468492-dff1-42f0-a03a-a54d0dc56554.png)
 
 Comparison result with the third data split:
-![image](https://user-images.githubusercontent.com/93321396/218305980-14afa1e1-260c-4107-a5c5-62081d6149a9.png)
+![image](https://user-images.githubusercontent.com/93321396/221564805-e89a1569-39ea-4835-a501-3f6e71ee293e.png)
 
 II. L1 regularization in data augmentation
 ==========================================
