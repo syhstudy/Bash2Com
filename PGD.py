@@ -11,10 +11,9 @@ class PGD():
             if param.requires_grad and emb_name in name:
                 if is_first_attack:
                     self.emb_backup[name] = param.data.clone()
-                l1_norm = torch.norm(param.grad, p=1)
-                l2_norm = torch.norm(param.grad, p=2)
-                if l1_norm != 0 and not torch.isnan(l1_norm) and l2_norm != 0 and not torch.isnan(l2_norm):
-                    r_at = alpha * (param.grad / l1_norm) / l2_norm
+                norm = torch.norm(param.grad)
+                if norm != 0 and not torch.isnan(norm):
+                    r_at = alpha * param.grad / norm
                     param.data.add_(r_at)
                     param.data = self.project(name, param.data, epsilon)
 
