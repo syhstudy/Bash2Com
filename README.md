@@ -28,4 +28,4 @@ We have sorted out the code and corpus. You just:
 
 4.Others
 ==========================================
-The README_add include detailed comparison results and some theories about data augmentation.
+The README_add includes detailed comparison results and some theories about data augmentation.
