@@ -9,8 +9,11 @@ Title: Bash Comment Generation via Data Augmentation and Semantic-Aware CodeBERT
 2.Code Introduction
 ==========================================
 /data is the experiment corpus.
+
 /result are experiment results.
+
 /train are experiment models.
+
 /GPT is the GPT3.5 model and result.
 
 FGM.py, FSGM.py, NP-GD, and PGD are adversarial training methods.
