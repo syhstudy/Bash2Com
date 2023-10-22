@@ -25,3 +25,7 @@ We have sorted out the code and corpus. You just:
 1: Just run "./eval.py" to get the paper results.
 
 2: Just run "./train/run.py" to rerun the experiment.
+
+4.Others
+==========================================
+The README_add include detailed comparison results and some theories about data augmentation.
