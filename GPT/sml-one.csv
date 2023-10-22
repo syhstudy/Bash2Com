@@ -1,0 +1,1049 @@
+find all files and directories in the current directory and print their names.
+find all files in the specified path with a matching name and execute a sed program on each file.
+find all files in the specified path with a matching name and display their details.
+change the permission of all files in the specified path.
+get network interface configuration and use sed to filter and print specific information
+rsync command to transfer files and directories from source to remote server using SSH.
+find files and directories with name matching Regex in specified Path modified within Timespan.
+find all files and directories with names matching the given regex pattern in the specified path.
+replace the beginning of each line in all files in a directory with a specific string
+find all unique directories containing files with the extension .cpp in the current directory.
+get the network interface configuration and filter the output using a regular expression.
+"move all directories named ""Regex"" to a new directory called ""Directory"" and rename all files within the directories to ""File""."
+count the number of lines in a file excluding lines that match a specific pattern.
+"find all files and directories owned by the user with the name ""Regex""."
+"create a file named ""File"" and write ""false"" to it, while also displaying the output on the terminal."
+find files and directories with a specific name pattern in a given path.
+find all files in the specified path that have been accessed within a certain timespan and display their details.
+create an array of directories by finding all directories in the current directory.
+split a file into multiple files based on the specified number of lines and a regular expression.
+"find and delete files with name _REGEX in specified path, within certain depth and modified more than certain minutes ago."
+find files and directories with a specific name pattern in a given path.
+find files and directories in Path modified within Quantity minutes and list their details.
+"send a POST request to www.example.com with a parameter named ""param"""
+cut a specific field from a file using a delimiter.
+find files and directories with a specific name pattern in a given path.
+rsync command to copy files and directories with verbose and compressed options.
+"list all processes in a tree structure, filter by a regular expression, and display in a paginated view."
+find all files in the specified path that have been modified within a certain timespan.
+find files and directories with names matching the given regex pattern in the specified path.
+find all files in the specified path with a case-insensitive name matching the given regex and print their names.
+find files and directories with a specific name pattern in a given path.
+find all symbolic links in a directory and print their detailed information using awk.
+find all files in the current directory and its subdirectories and display their statistics.
+"find all files and directories in the specified path, excluding those that match the given regex, and sort the results."
+find all files in the specified path and print only their basenames.
+find all files and directories matching the given regular expression in the specified path.
+find files and directories in Path modified within the last Quantity minutes.
+find all files matching the pattern and run git diff on them.
+count the number of lines that are common between two files and print the result.
+find all files with name matching the regex in the specified path.
+find files and directories with a specific name pattern in a given path.
+find all directories in Path with name Regex.
+delete all files in the specified path with the given name.
+"find all files and directories named ""Regex"" in the specified path, excluding any paths that contain ""Regex""."
+find all files in the specified path with the given permissions.
+"find all files and directories in the specified path and replace the word ""Regex"" with ""Regex""."
+find files and directories with a specific name pattern in a given path.
+"search for the occurrence of ""Regex"" in files and directories, apply an awk program, and extract the directory names."
+find all files and directories with name matching the regex pattern in the specified path.
+"cat the content of File and repeat the word ""Regex"" Quantity times, followed by the content of File."
+"copy and replace the destination file with the source file, removing the destination file if it exists."
+"find and display the size of directories in a specified path, sorted by size."
+find all files and directories in the current directory that match a specific pattern and print their paths.
+count the number of files in the specified path with the given permission.
+find files and directories in a specified path that match a given regular expression.
+"find all files in the specified path that match the given regular expression, and then use awk, sort, and uniq to process the results."
+"copy all files in Path to File, excluding those with Regex in their path."
+"change the ownership of all files and directories named ""Regex"" in the ""File"" directory and its subdirectories."
+"create symbolic links for each file in ""File"" to a directory named ""Regex""."
+find files and directories with a specific name pattern in a given path.
+"kill all processes that match the regex pattern using ps, grep, awk, and xargs."
+count the number of files and directories with the name matching the regex in the given path.
+find files and directories in the specified path.
+"find all files matching the name ""Regex"" in the specified path, concatenate their contents, apply a sed program, and count the number of lines."
+"find all files and directories with names matching _REGEX in the specified path, modified more than Timespan days ago."
+move a file to a different location.
+display the contents of a file in octal format with floating point values.
+"grep for a regex pattern in a file, apply a sed program, and display the first few lines."
+"find all files in a directory and its subdirectories, list their details using awk, and sort them uniquely."
+find all files and directories except those with names matching the given regex.
+find all directories and files in the specified path.
+remove all files and directories named _Regex that have not been modified in Timespan days.
+calculate the MD5 checksum of a file and extract a specific field using a delimiter.
+"find all files and directories with the name ""Regex"" in the specified path."
+get the absolute path of the current script
+decompress and split a file into smaller files based on a regular expression
+find files and directories with specific permissions in a given path.
+find files and directories in the specified path.
+find all files and directories in the specified path that do not have an associated user.
+ping a specified quantity of times and filter the output for a specific regex pattern.
+remove all files in Path that are of size Size in the filesystem.
+print the current username
+"find all files and directories with the name ""Regex"" in the given path and print them."
+list the top Quantity users who are currently logged in and sort them alphabetically.
+ping a specific host and display its IP address and hostname.
+sort files in reverse numerical order based on the specified key.
+rename all files and directories matching the regex pattern in the given path.
+find all files and directories without a user and prompt for removal.
+"find the location of the executable file named ""Regex"" in the system."
+"dig the domain name ""Regex.com"" using the bash command."
+"create a new directory named ""Directory"""
+"move all files in the ""File"" directory to the ""File"" directory."
+"reverse the lines in a file, cut the fields using a delimiter, and reverse them back."
+find all files in the specified path that match the given regular expression and execute grep command on each file.
+remove all characters from the input string that are not in the regex pattern.
+"find all files and directories with the name ""Regex"" and search for the pattern ""Regex"" within them."
+tail the contents of a file and append it to the same file.
+find all files and directories in the specified path that do not contain the specified regex pattern.
+find files and directories with specified permission in the given path.
+find the size of all files and directories matching the given regex pattern.
+find all files and directories owned by user _REGEX and print them.
+find and remove files matching a specific name pattern in a given directory.
+find files and directories in the specified path that were modified more than a certain timespan ago.
+find all directories in Path with Permission and change their permissions to Permission.
+sort the content of a file and overwrite the original file with the sorted content.
+reinstall git using brew package manager.
+tail command to display the last few lines of a file and append the output to another file.
+find all files and directories modified after a certain date in a given path.
+remove all files in the specified directory that are smaller than 1MB.
+shift all positional parameters to the left by one position.
+create a symbolic link for the file with the given regex pattern.
+generate a sequence of numbers with leading zeros.
+count the number of lines in each file with name _REGEX in a given directory
+"move files that contain the word ""Regex"" in their name to the ""File"" directory."
+find files in multiple paths and print the matching lines from a file.
+read a specified quantity of input from the user.
+change the permission of a file or directory to the specified permission.
+find files and directories with name matching Regex modified within Timespan and print them.
+find files and directories owned by user _REGEX modified within _TIMESPAN in a given path.
+reverse the content of a file using awk program.
+find all files and directories in the specified path that are larger than the specified size.
+"find files and directories in Path with size Size and print their permissions, number of links, owner, group, size, and last modification time."
+ssh into a server using a specific port and regular expression as the username.
+Allow the local user to access the X server.
+"find all files and directories named ""Regex"" in the specified path and execute grep command on them."
+get the mount point and device information of /dev/sdb using smartctl
+find all files and directories in the entire filesystem and print their paths.
+remove all characters from the file that are not matching the given regex.
+"find all mp3 files with names starting with ""Lemon"" and play them using mplayer."
+"generate a sequence of numbers, sort them randomly, and select the first N numbers."
+"count the number of lines, words, and characters in the input string ""Regex""."
+find files and directories with a specific name pattern in a given path.
+"remove all files and directories with the name ""Regex"" in the specified path."
+"set the system date to the value specified by the variable ""Regex""."
+connect to a detached screen session.
+convert the given date in Regex format to Unix timestamp in UTC timezone.
+calculate the sum of numbers from -5 to 10 using the seq and bc commands.
+"dig for the occurrence of the word ""Regex"" in the files ""ch"" and ""txt""."
+"copy all files in Path to File, excluding those with name Regex."
+"find all files in the ""data/"" directory with names matching ""filepattern-*2009*"" and save the results in ""filesOfInterest.txt""."
+#bash code:history - summarization: display the command history in the terminal.
+find files and directories larger than Size in Path and display them in descending order of size.
+find all files in the specified path that contain the given regex pattern.
+find all files and directories named _Regex in the specified path and delete them.
+find all files and directories with a case-insensitive name matching the regex pattern.
+find files and directories in Path that have not been accessed in Timespan and prompt for confirmation before deleting them.
+concatenate and display the contents of the file with the same name as the current user.
+"find all files and directories named ""Regex"" in the specified path and search for the occurrence of ""Regex"" in each file."
+find files and directories with a specific name pattern in a given path.
+list all files and directories in the current directory.
+search for a specific pattern in a file in reverse order and display a limited number of matches.
+send a command to a detached screen session to spawn a daemon
+set the environment variable RBENV_VERSION in the tmux session.
+cut a specific field from a file.
+sort the file based on the specified field and key numbers.
+"remove a file named ""File"""
+"display the help information for the ""tree"" command and show only the first two lines."
+change the permission of all files in a specific directory and its subdirectories.
+sed -z Program: a bash code that uses the sed command with the -z option to process a program.
+cut the input string at the specified delimiter and print the specified field.
+copy a file to another location without overwriting if the file already exists
+find files and directories modified within a specific timespan starting from today.
+change the permission of all files in the specified path to match the permission of a reference file.
+find all files and directories with names matching the given regex pattern and print them.
+compress files using gzip
+remove all files with name _REGEX in the specified directory and its subdirectories.
+Enable the matching of hidden files and directories in a bash script.
+find files and directories with a specific name pattern in a given path.
+get the absolute path of a file or directory
+join two files based on a common field using a specified delimiter.
+find all files and directories with a specific inode number in a given path.
+find all files and directories with a case-insensitive name matching the regex pattern.
+find all files and directories with a case-insensitive name matching the regex pattern.
+watch command: continuously execute a command and display the output in real-time.
+"find all files and directories with names matching the regex in the specified path, and print them if they are newer than the specified file."
+find all directories and files with name matching the regex pattern in the specified path.
+"create a directory named ""Directory"" in the specified path, excluding any directories matching the ""Regex"" pattern."
+bind Regex to a bash code.
+"rename a file or directory named ""File"" to ""File"""
+find files and directories with a specific name pattern in a given path.
+"echo the absolute path of the file and print the word ""Regex"" twice."
+find files and directories that have the same inode as the file Regex.
+join multiple files and apply awk program to the output.
+find files and directories with a specific name pattern in a given path.
+"get the specified information from the output of ifconfig command using head, tr, and cut."
+count the frequency of each command in bash history and display the top commands.
+reverse the content of a file.
+"create a new directory named ""Directory"" and its parent directory if they don't exist."
+"search for the word ""Regex"" in the file ""File"" and its subdirectories."
+"unzip all files in the current directory using the ""gunzip"" command."
+awk program to format the output of another awk program into columns.
+find the unique and sorted output of the awk program applied to the tail of the finger command.
+"sort and remove duplicate lines from the output of a script named ""yourscript.ksh""."
+generate ssh key fingerprint for a given file
+grep hostname in File and use awk Program to process the output.
+"rename a file or directory named ""File"" to ""File"""
+"count the number of files in a directory, sorted by frequency"
+find all files and directories in the specified path that are smaller than a certain size and print their names.
+find all files and directories larger than Size in the specified Path and display their details.
+mount ntfs file system.
+"append the string ""Regex"" to the file ""File"" and also print it on the console."
+"sync files from server to local directory, excluding certain files, and save output to a text file."
+find files and directories in Path that were modified within the last Quantity minutes.
+find all files in the specified path that were modified more than a certain timespan ago.
+find files and directories modified within a specific timespan starting from today.
+script.py takes all directories in /stuff/* as arguments.
+find files and directories in the specified path that match the given regular expression.
+find all files and directories modified between two specific dates in a given path.
+copy file to multiple destinations using xargs and specify the quantity to copy at a time.
+"find the total size of all files starting with ""file"" in the current directory."
+find all files and directories with the specified UID and print them.
+compress all directories in /path/to/dir into separate tar.gz files
+change the owner of all files and directories owned by Regex in the specified path.
+find files and directories in the specified path modified within a certain timespan.
+"find all files and directories named ""Regex"" in the specified path that have not been accessed in a certain timespan."
+"search for the occurrence of the word ""Regex"" in the input and print it."
+sleep until 12:30 on 03/21/2014.
+ping a specified quantity of times and use awk to process the output.
+reverse and cut the input string at the specified delimiter and field number.
+"list all files and directories except those starting with ""b"""
+compare and output common lines between two sorted and unique sets of lines
+find and list the top Quantity files in Path directory along with their sizes.
+find all files and directories in the current directory that match the regex pattern.
+change directory to specified location
+change the permission of all directories in the specified path.
+find files or directories in specified paths.
+This bash code reads a JSON file and prints the titles of books with a price less than 10.
+find files and directories in a specified path that match a given regular expression.
+List all mounted NFSv4 filesystems.
+find all files and directories matching the given path regex.
+print the size and path of all files in the specified directory.
+find all files older than Timespan with name Regex and move them to File.
+disable file name expansion in bash.
+find all files in the specified path and check their file types for a specific regex pattern.
+git command with color status enabled and regex pattern matching for better readability.
+"rename all files named ""2.jpg"" in the ""../D44203"" directory to include the current directory name."
+find all files and directories in the specified path that are larger than the specified size.
+find all files in the specified path that contain the given regex pattern.
+move all files and directories to the target directory.
+find all files in the specified path with a specific name.
+"search for a specific word in files within a directory, excluding a specific directory."
+get the hostname of the current machine.
+remove all files and directories with the name _Regex in the specified path.
+find all files in the specified path and print their md5sum values.
+"create a file named ""File"" in all directories under the given path."
+get the top process ID of the oldest running program named ProgramName
+find all files and directories with name matching _Regex modified within a certain timespan in the specified path.
+display the disk space usage of the file or directory specified.
+unzip all files matching the given regex in the specified path.
+remove all empty files in the specified directory and its subdirectories.
+find files and directories with a specific name pattern in a given path.
+find all files and directories that match the regex pattern and search for matching lines within them.
+find all files and directories with a specific quantity of links in a given path.
+execute arp command on the current host and print the IP address.
+find all directories in the specified path with a specified maximum and minimum depth.
+remove all files in the specified path that have been modified within a certain timespan.
+remove all files in the specified path that match the given regular expression.
+"find all files and directories with the name ""Regex"" and search for the pattern ""Regex"" within them."
+get the directory name of a file by resolving any symbolic links.
+"exclude lines containing ""Regex"" from a file and display the remaining lines using pagination."
+"create a new empty file named ""File"""
+"rsync command to copy files and directories, preserving attributes and ignoring existing files."
+count the number of lines in all files and directories with name _REGEX in the given path.
+find all files and directories matching the regex in the specified path and delete them if they meet the size criteria.
+compress all files in the specified path using gzip with maximum compression level.
+measure the execution time of a command and display only the real time.
+find files and directories in the specified path that were modified more than a certain timespan ago.
+rsync file from source to destination with options for quiet and compression.
+"compare two sorted lists of files that contain the word ""Regex"" and output the common files."
+cut the specified field from the input using the specified delimiter.
+"find files and directories matching the regex in the given path, sort them by modification time, and apply an awk program."
+watch the disk usage of a specific file or directory at regular intervals.
+"find all occurrences of the word ""Regex"" in files under the specified path."
+"find all files with .c, .cpp, .h, .hpp extensions and save them in cscope.files."
+find all files in the specified path.
+find all files and directories with a specific path and print their paths.
+mount the filesystem named Regex with the options remount and suid.
+"grep for the word ""Regex"" in the output of the ""uname -r"" command."
+find files and directories with a specific name pattern in a given path.
+find all files in the specified path that contain the given regex pattern.
+Install MySQL and MySQL server using yum.
+find all files in the specified path that do not match the given regular expression.
+find all files and directories in the specified path that are larger than the specified size and match the given regex pattern.
+find and replace a specific string in multiple files using sed command.
+find all files and directories in the specified path that are larger than the specified size and match the given regex pattern.
+list all files and directories in the specified path and display them page by page.
+count the number of lines in all files tracked by git.
+"find all files and directories named ""Regex"" in the specified path."
+"execute a series of commands involving date, hostname, echo, sed, and tr with the use of regular expressions."
+find files and directories in the specified path that were created more than a certain timespan ago.
+find files and directories in Path modified within Quantity minutes.
+find all jpg files in the current directory and convert them.
+find all files and directories in the given path and print their names.
+find all files and directories matching the given regex pattern in the specified path.
+find files and directories with names matching the given regex pattern and print them.
+"change the title of the screen session named ""main"" to ""blah"""
+move all directories with names matching _REGEX to the File directory.
+get the absolute path of a file or directory
+perform arithmetic operations on a sequence of numbers using the bc command
+find the job ID of the most recent background process in bash.
+find all directories in /home that do not have a bin subdirectory.
+find all directories and files with names matching the given regex pattern in the specified path.
+find all files in the specified path that match the given regular expression.
+rename all jpg files in current directory and its subdirectories with a new format.
+remove all files and directories with the name _Regex in the specified path.
+"decompress and extract a tar file named ""File"" to a directory named ""Directory"""
+"read a string input and assign it to the variable ""Regex"""
+ssh into example.com and attach to the running screen session.
+change the owner of the file to the one specified by the regular expression
+find all files and directories in the specified path that are larger than the specified size and list their details.
+find all files and directories with name matching the regex pattern and execute awk program on them.
+remove all files and directories with name _REGEX in the specified path.
+"find all files in the current directory and its subdirectories, remove trailing spaces from each file."
+display the process tree with their process IDs.
+find all files and directories with names matching the regex in the specified path.
+source a file in bash.
+find all files with name Regex in Path and create a tar file with them.
+change the group ownership of the file to the one specified by the regular expression.
+"execute the command ""command"" repeatedly until it receives a termination signal."
+"find all files and directories named ""Regex"" in the specified path and prompt for deletion."
+list all files and directories with detailed information for the specified command.
+find files and directories with a specific name pattern in a given path.
+mount the original path to a new path
+"change the ownership of the file or directory named ""Regex"" recursively."
+find all files in the specified path with a specific name.
+list all files and directories in Path and apply awk Program to them.
+find files and directories in a specified path that do not match a given regular expression and execute grep command on them.
+"rsync files and directories, including and excluding based on a regex pattern."
+"create a new directory named ""Directory"" and its parent directory if they don't exist."
+read a specified quantity of characters and match them with a regular expression.
+"delete the ""test"" directory from all subdirectories that have both ""live"" and ""test"" directories."
+find files in Path with specific Permission and process them using awk.
+"Create a bash alias ""git-root"" to change directory to the root of the current git repository."
+compare two sorted files and output the common lines between them.
+copy all files in current directory to a new directory with numbers removed from their names.
+find all files and directories modified after a certain date in a given path.
+"rename all files and directories named ""Regex"" in the specified path."
+find all files modified within a certain timespan and display their details.
+find all files and directories with no user or group ownership.
+get the IP address of the host and use awk to process it using a regular expression.
+rename all files and directories matching the regex pattern in the given path.
+calculate the total size of all .txt files in the specified directory
+execute dig command on each line of File using the value as an argument
+find all files in the specified path that do not have the specified permission.
+find all files and directories in the specified path that contain the specified regex pattern and display their details.
+"remove all files and directories with the name ""Regex"" in the specified path."
+calculate the time difference between two timestamps in HH:MM:SS format
+copy file File to the same location
+"execute the command ""true"" and redirect its output to a temporary file descriptor."
+find all symbolic links in a specific path up to a certain depth.
+split a file into multiple files based on a specified number of lines.
+"display the size of files and directories in descending order, limited to a certain depth."
+find all symbolic links in the /target directory and print the ones that are orphaned.
+remove all files and directories with the name matching the regex pattern.
+split a file into multiple files with a specified number of lines per file.
+find files and directories with a specific name pattern in a given path.
+find all files in the specified path and delete them if they do not match the given regex.
+create a tar file of the directory structure without including subdirectories.
+measure the time it takes to list the files and directories in long format.
+set and print the current shell variables using the sed command in bash.
+"cat the content of a file named ""File""."
+pause the execution of the script for a specified amount of time.
+find all directories in Path with name Regex.
+"find all jpg files in current directory and its subdirectories, calculate their total size."
+find all files and directories in the specified path and print them if they match the given regex pattern.
+"rsync recursively copies files and directories, including those with the name ""Regex"" and filtering based on a program."
+find files and directories with names matching the regex pattern and execute an awk program on the results.
+print the first Quantity bytes of the File.
+find all directories in the specified path.
+ssh into a server using a specific port and regex pattern for the username and hostname.
+kill all jobs with names matching the regex pattern.
+compress all files in the specified directory that are older than a certain timespan.
+find all files and directories matching the given path and print them.
+"find all files and directories with the name ""Regex"" in the current directory."
+"find all files and directories owned by the user with the name ""Regex""."
+sed -n Program: execute sed command with -n option to suppress automatic printing of pattern space.
+"extract and decompress a tar file named ""File"" using gunzip and tar commands."
+calculate and print the calendar and date and time using the awk program.
+find all files in the target path and execute a command on them.
+remove all directories named _REGEX in the specified path.
+"create a new directory named ""Directory"""
+find all files and directories with a case-insensitive name matching the given regex pattern.
+find all files in the specified path and calculate their MD5 checksums.
+search for a specific pattern in a file and output the matching lines.
+find all files in the specified path that match the given regular expression.
+"get the absolute path of the program named ""Regex"" and apply the ""sed"" program to it."
+find all directories in the specified path with a certain depth level and print their basenames.
+find all files and directories matching the regex pattern in the given path.
+find files and directories with names matching the given regex pattern and print them.
+"replace all occurrences of ""Regex"" with ""Regex"" in the input string."
+find files and directories in Path modified within Quantity minutes.
+find files and directories with a specific name pattern in a given path.
+change the current directory and save the previous directory to a stack
+find all files in the specified path that do not have the given name.
+"change the group ownership of all files and directories in the ""File"" directory to ""Regex""."
+read and store a regular expression from user input in a bash script.
+remove all files and directories with name _REGEX in the specified path.
+get network interface configuration and use awk to process the output.
+split a file into multiple files based on a given quantity and regex pattern.
+move all files and directories with names matching _REGEX to the File directory.
+find all files in the specified path with the given permission and display their details.
+find files and directories in the specified path that match the given regular expression.
+"kill all processes with the name ""cps_build"" using the command ""pgrep -f""."
+extract lines 16482 to 16739 from in.sql and save them in out.sql
+find all files in Path with name Regex and replace the content using sed.
+count the number of lines in all files and directories with name _Regex in the given path.
+remove all files and directories in the specified path.
+find files and directories with a specific name pattern in a given path.
+find files and directories in the specified path with size greater than and less than a given size.
+"copy the file ""File"" three times with all attributes preserved."
+change the permission of all files in the specified path.
+remove files and directories that do not match the regex pattern from the current directory.
+remove all files in the specified path that match the given regular expression.
+find and archive all files matching a specific pattern in a directory.
+find all files and directories with names matching the regex pattern in the given path.
+find all files in the specified path with a specific name and process them using awk.
+find all files in the specified path that match the given regular expression.
+find files and directories with a specific name pattern in a given path.
+"sort file by two keys, number and regex, in a stable and unique manner."
+unset a random element from an array in bash.
+"find all files with name ""Regex"" in the specified path."
+change the permission of all directories in the specified path.
+find all files and directories with names matching the regex pattern in the specified path.
+find all files in the specified path that have been modified within a certain time frame.
+awk program execution with multiple programs.
+"get the operating system name, kernel version, and release version."
+count the number of lines in each file or directory with name _REGEX.
+Extract the contents of the php-5.1.4-1.esp1.x86_64.rpm package using rpm2cpio and cpio.
+find and remove files and directories with a specific name in a given path.
+"change the ownership of all files and directories named ""Regex"" in the ""File"" directory and its subdirectories."
+"delete all directories named ""Regex"" in the specified path."
+find files and directories in the specified path that were created or modified within a certain timespan.
+read a regex pattern from user input and store it in a variable.
+find files and directories with a specific name pattern in a given path.
+"find all files and directories, print their UUID and sort by name."
+find all files and directories owned by user _REGEX with specified permissions.
+find and display the content of files in a directory that match a specific pattern.
+find files and directories with a specific name pattern in a given path.
+"find all SQL files in current directory, replace a specific string, and import into MySQL database."
+delete all files in Path that have not been modified in Quantity minutes.
+sort the contents of the file and remove duplicate lines.
+"calculate and display the current date and time, save it to a file, and display it in the terminal."
+find files and directories in Path that were accessed within a certain Timespan and Quantity.
+Find all files with a specific pattern in the entire filesystem.
+find all files with a specific user ID in a given directory.
+"find files and directories with specific permissions, remove regex pattern, and perform additional text manipulation."
+"convert the string ""Regex"" to hexadecimal, character, and binary representation."
+"measure the time it takes to execute the ""ls"" command and discard the output."
+"find all directories named ""Regex"" in the specified path."
+change the permission of all files in the specified path.
+find files and directories modified within a certain time frame and display the first few results.
+create directories in specified path with given directory name using find and xargs.
+"create a new directory named ""Directory"""
+"find all files matching the name ""Regex"" in the specified path, and append their contents starting from line ""Quantity"" to the file ""File""."
+find files and directories with a specific name pattern in a given path.
+count the number of files in the given path that match the specified regex pattern.
+change the permission of all directories in the specified path to the specified permission.
+find all directories in Path and concatenate their names with Regex.
+#summarization: Display the directory structure in a tree-like format.
+find files and directories in the specified path modified within a certain timespan.
+find all files with the extension .log and check if they contain a specific string.
+find and remove all files and directories with name _REGEX in specified path.
+find all files in the specified path and sort them.
+print the calendar for the current month and year with the date and time.
+find all files with the extension .txt in the current directory and process them.
+"echo the string ""Regex"" and use awk to perform some operations on it and display the output in hexadecimal format."
+split input into 16-byte chunks and add a space between each pair of characters.
+"remove all files and directories with the name ""Regex"" in the specified path."
+count the number of lines in a file and continuously update the count.
+remove all files and directories with name _REGEX in the specified path.
+"print the current date and time followed by the word ""Regex"""
+change the owner of the file to the one specified by the regular expression
+create directories in /SomeWhere/Else with the same names as the directories in the current directory.
+"ssh into ""somehost"" and use the ""find"" command to upload files to the ""/tmp"" directory using FTP."
+remove all files in the specified path that do not have the name specified by the regex pattern.
+remove duplicate files in File from the current directory and its subdirectories.
+"execute the command ""command"" repeatedly with the input ""yes 1"""
+replace the occurrence of _REGEX in the Program file using sed command.
+"generate a sequence of Quantity times of the word ""Regex"" without any line breaks."
+"Create an alias ""12np"" to SSH into ""mydomain\stephencheng@userxyz@host.com""."
+find all files in the specified path with a matching name and change their permissions.
+find files and directories with specified permission in the given path.
+find all files in the specified path with names matching the given regex and replace the regex with a new value in-place.
+"find all files with the extension .jsp, print their paths, and search for the keyword TODO."
+"delete all directories named ""live"" and ""test"" inside <directory_name> and its subdirectories."
+"create a new directory named ""Directory"" and create any necessary parent directories"
+find files and directories with names matching the given regex pattern in the specified path.
+remove all files with names matching the regex in the specified path.
+find all text files modified today in the specified directory and print the last line of each file.
+find all directories containing files with names matching the regex pattern in the current directory.
+find all files in the specified path with a case-insensitive name matching the given regex and print their paths.
+find files and directories with specific permissions in a given path.
+Enable case-insensitive globbing in bash.
+"copy all symbolic links in a directory, replacing them with the target files."
+ping a host and filter the output to display only the occurrences of a specific pattern.
+get the hostname of the current machine.
+print the names of all files and directories in the specified path.
+rename all jpg files in current directory by adding directory name as prefix.
+find files and directories with specified permission in the given path.
+bind Regex to a bash code.
+change the permission of all files in the specified path.
+"find all files and directories named ""Regex"" in the specified path."
+join two files using a specified delimiter.
+"change directory to the location of the ""app"" node module."
+"count the number of characters in the string ""Regex"" and print the result."
+compress a string using gzip and pigz with compression level and verbose output.
+Enable checkwinsize option in bash to automatically update the window size.
+search for the quantity of a specific command in bash history using regex.
+find and remove files and directories with name matching Regex and created more than Timespan ago.
+find all directories in Path that have been modified within Timespan.
+"list all files and directories matching the regex in the specified path, sort them by date, and display a limited number of results."
+find all files with permissions +220 and list them with detailed information.
+"reverse a string, cut a specific number of characters from the end, and reverse it back."
+find all files in the current directory and its subdirectories and display their size and name.
+Enable programmable completion in bash.
+"count the number of files that contain the word ""Regex"" in the given path."
+get the directory name of a file by resolving any symbolic links.
+sort all files in the specified path and save the sorted output in a file.
+change ownership of npm directories to current user recursively.
+"echo the word ""Regex"" four times in reverse order."
+compare two files and display the differences in a unified format
+generate a sequence of numbers from 1 to 10 and print them in a loop.
+find all files in Path and apply sed command to modify them.
+replace text in File using sed with Program.
+find all files named sqlite.db and pass them as arguments to your_script.sh.
+change the permission of all files in the specified path.
+"rsync files with progress using ssh and compression, preserving permissions and timestamps."
+list all files and directories with detailed information for a specific file.
+find all files in the specified path that are not newer than the given date.
+find all files in the given path and compare them with the specified file.
+split a file into multiple parts based on a given quantity and regular expression.
+find all files in the specified path with the given permission.
+change the ownership of the file to the current user recursively.
+"find files matching Regex in Path, compress them, sort by Number, and apply awk Program."
+find files and directories with a specific name pattern in a given path.
+"find all files in a directory and its subdirectories, and display their sizes in human-readable format."
+"split data.csv into multiple files with 100 lines each, appending a numeric suffix and .csv extension."
+find all files and directories in the given path that do not match the given regular expression.
+find all files and directories in the specified path that are of a certain size.
+generate ssh key with password Regex
+read and store a regular expression from user input in a bash script.
+find all files and directories with names matching the regex in the given path.
+find the basename of all files and directories in the specified path.
+"count the number of files in the directory ""File""."
+"find all .txt files in /path/to/inputfiles and execute myprogram.sh on each file, redirecting output to Out.txt."
+Display the directory tree structure with options for filtering and formatting.
+copy all files with name _REGEX in Path to File directory recursively.
+copy all files modified within a certain timespan to a specific directory.
+find files and directories with a specific name pattern in a given path.
+find files and directories with a specific name pattern in a given path.
+find all files in the specified path with a name that matches the given regex pattern.
+"find the location of the executable file named ""Regex"" and determine its file type."
+copy file or directory with all permissions and attributes to another location.
+find files and directories with a specific name pattern in a given path.
+rsync command to copy files and directories with verbose output.
+"find all occurrences of the word ""Regex"" in files within the specified path."
+find all files and directories modified more than Timespan days ago in the specified Path.
+"append the string ""Regex"" to the file ""File"" and also print it on the console."
+remove all files and directories with name _REGEX in specified path
+get the Unix timestamp of a given date specified by the Regex.
+"rename all files and directories with name ""Regex"" in the given path."
+remove all files and directories with the name _Regex in the specified path.
+create a tar file containing only directories in the current directory and save it elsewhere.
+Display the calendar for the current month in English language.
+"find all files and directories with the name ""Regex"" in the given path and print their names."
+"find files in Path with size Size and print their permissions, number of links, owner, group, size, month, day, time, and path."
+ssh into a remote server using specified port and enable local port forwarding.
+split a file into smaller parts based on a given size after applying a sed program to it.
+find all files in the specified path that match the given regular expression and print their names.
+find files or directories in specified paths.
+combine the output of grep command with the content of a file and update the crontab file.
+"rename all files matching the regex pattern in the given path by moving them to a ""lib"" subdirectory."
+find all files in the specified path that contain the given regex pattern and print the results.
+watch every 5 minutes for new image files in the current directory and its subdirectories.
+count the number of directories in a specific path that match a given regex pattern.
+copy all relative path names to a new parent directory using cpio command.
+sum all numbers in a file and output the result
+"search for the term ""Regex"" using the apropos command and filter the results with grep."
+get the current directory path and assign it to the variable DIR.
+"execute the command ""echo"" on all files and directories in the specified path."
+find and list the top Quantity files in Path based on their size.
+find files or directories in the specified path.
+find files and directories in the specified path modified within a certain timespan.
+find all files in the specified path that contain the specified regex pattern and execute the grep command on them.
+"measure the time it takes to execute the ""ls"" command and save the output to a file."
+find all files and directories in the specified path that are larger than the specified size.
+dig the specified domain name using the DNS protocol.
+"change the ownership of all files and directories named ""Regex"" in the ""File"" directory and its subdirectories."
+find files and directories with specific permissions and size and write the results to a file.
+find all directories in the specified path up to a certain depth.
+Set the bash prompt to display the username and hostname.
+get the base name of the current working directory.
+fold the content of a file and apply two sed programs to it.
+sort and remove duplicate lines from a file.
+find all files and directories with a specific inode number in a given path.
+remove files in current directory based on the output of an awk program.
+Enable nullglob option to prevent glob patterns from returning empty results.
+sort the content of a file randomly and display the first few lines.
+"remove all files and directories with the name ""Regex"" in the specified path."
+remove all empty directories in the current directory and its subdirectories.
+get the parent directory of the current working directory
+mount /tmp/fakerandom directory to /dev/random device using bind option.
+"find all files and directories with the name ""Regex"" and search for ""Regex"" within them."
+get the date corresponding to the given regular expression.
+find all files in the specified path that are smaller than a certain size.
+"find all directories in the current directory and execute ""git pull"" on each of them."
+read a regular expression from user input.
+move all files and directories in Path to Directory with a minimum depth of Quantity.
+redirect both standard output and standard error to a log file and display them on the terminal.
+find all files in the specified path that do not match the given regular expression.
+"find all files and directories containing the word ""Regex"" in the entire filesystem."
+sort and print the top Quantity number of lines in reverse order from the input Regex.
+"rename all files and directories containing ""company"" to ""nemcompany"" in the current directory."
+find all files and directories owned by a user with a case-insensitive name match.
+find files and directories with a specific name pattern in a given path.
+find files and symbolic links with a specific name and permissions in a given directory.
+"count the number of lines in the file ""File"" that contain the word ""Regex""."
+find all .txt files in the current directory and open them in vim using parallel processing.
+"echo the value of the variable ""Regex"" and pass it as input to the awk program."
+find files and directories with a specific name pattern in a given path.
+find all files and directories in the specified path with a minimum depth.
+"remove all files and directories with the name ""Regex"" in the specified path."
+"find all files and directories with case-insensitive name matching ""Regex"" in the given path."
+find all files with the extension .txt and execute a process on each file.
+find all directories in the specified path.
+get the IP address of the current machine.
+"sort and remove duplicates from a file, based on a specific regex pattern and line number."
+"search for the occurrence of the word ""Regex"" in the file ""File"" and its subdirectories."
+create a symbolic link named Regex to the file named File
+change directory to specified location
+create symbolic links for all files in current directory to their respective relative paths
+list all files in the specified directory and its subdirectories.
+find files and directories in the specified path that were modified more than a certain timespan ago.
+find all files and directories with names matching the regex pattern in the specified path.
+"find all files and directories with the name ""Regex"" in the specified path, excluding those with the name ""Regex""."
+"find all files in the specified path, execute the ""file"" command on each file, filter the output using ""grep"" based on a regex pattern, and extract a specific field using ""cut""."
+find all symbolic links that do not exist and print their paths.
+find all files in the specified path.
+find files and directories in the specified path with a size greater than or equal to Size.
+"grep for the word ""Regex"" in the files found in the directory ""Path""."
+"copy the file ""File"" to itself using the ""yes"" command."
+"change the title of the old window in the main screen session to ""blah"""
+"create a temporary directory with a name that matches the regular expression ""Regex"""
+remove all directories named _Regex in the specified path.
+compress all files and directories named _Regex in Path into File using tar.
+convert a series of jpg images into a mp4 video with specific settings
+"find files and directories with name matching ""Regex"" in the specified path, apply a sed program, sort the results, and remove duplicates."
+find files and directories in a specified path that match a given regular expression.
+change the permission of all directories in the specified path.
+Add line numbers to a file.
+upgrade php-mbstring package using yum with remi repository enabled.
+"read multiple values for the variable ""Regex"" in a bash script."
+find all directories with a specific number of hard links in a given path
+"concatenate the contents of the file ""File"" and separate them with the word ""File"""
+find all files in the specified path and print their details.
+change group and permission of files and directories with name Regex in Path.
+change the permission of all directories in the specified path.
+copy the file and remove the destination if it exists.
+find all files in the specified path that are larger than a certain size.
+"echo ""ee"" and pass it to both /dev/pty/2 and foo."
+"find all PDF files in the ""PDFs"" directory, convert them to text, and search for the phrases ""perry sound"" and ""October 26, 2004""."
+find all files in the specified path with a specific name and exclude certain directories.
+calculate the total size of all files in the current directory and its subdirectories.
+find all directories in the specified path that match the given case-insensitive regex pattern and list their details.
+create a symbolic link named Regex to the file named File
+zcat two compressed files and find common lines between them.
+find all files in the current directory and execute two commands on each file.
+find all directories in Path with a minimum depth of Quantity and change their permissions to Permission.
+find all files and directories with names matching the regex pattern in the given path.
+"find all files in Path that are not named Regex and have been modified more than Timespan days ago, then list them."
+find files and directories in Path modified more than Quantity minutes ago.
+replace a pattern in a file with a new value
+change the permission of all files and directories in the specified path.
+find all files in the specified path with a specific name.
+find and replace a specific pattern in files within a given directory.
+count the number of commands in bash history and display them in reverse order with line numbers using the sed program.
+find all files in the specified path with a name that matches the given regex pattern.
+find all directories containing files with names matching the given regex pattern.
+find files and directories with a specific name pattern in a given path.
+find all directories in Path with name Regex.
+"find all directories with ""log"" in their name, print their names and list the last two files in each directory."
+move a file to a different location.
+find all files in the specified path.
+"find all files and directories with the name ""Regex"" in the specified path."
+"find all files and directories named ""Regex"" in the specified path."
+find files and directories with a specific name pattern in a given path.
+display the disk space usage of the specified file or directory.
+find all files and directories modified within a certain quantity of minutes in a specific path.
+"find all files and directories owned by the user with the name ""Regex""."
+get the directory path of the user and display it.
+"pipe the output of ""yes"" command to ""head"" command to limit the number of lines, then use ""grep"" to find lines containing ""Regex"", use ""cut"" to extract a specific field, and finally use ""paste"" to concatenate the lines."
+find all files and directories with names matching the regex in the specified path.
+get the name of the current running script in bash.
+find and list the top Quantity files in Path based on their size.
+find files and directories modified within a specific time range in a given path.
+find all files with extension .ext in the /home directory and remove carriage returns.
+"grep for the word ""Regex"" in the file ""File"" and display line numbers."
+"count the number of lines, words, and characters in files matching the given regex pattern."
+find all files and directories with names matching the regex pattern in the specified path and print their paths.
+find files and directories in a specified path that match a given regular expression.
+"create an alias ""go"" to ssh into a server with the given hostname and username ""pete"""
+"count the number of lines in files matching a regex pattern in a given path, sort them in descending order, exclude files with the regex pattern, and display the result in a paginated view."
+find all files and directories modified more than Timespan days ago in the specified Path.
+find all files and directories in the specified path with a specific size and display their details.
+create a compressed tar file excluding specified directories from a target directory.
+find all files and directories with a case-insensitive name matching the regex pattern.
+"find all files and directories with name matching the regex pattern in the specified path, sort them, and display the first few lines of each file."
+find all files in the specified path.
+get the directory path of a file by resolving any symbolic links.
+concatenate the contents of a file with a delimiter and itself
+Find and remove all files larger than 100MB with the extension .tar.
+"echo the content of the variable ""Regex"" and pass it to awk for processing."
+split a file into multiple files based on the specified number of lines.
+change the permission of all directories in the specified path.
+"find all processes with the name ""jboss"" and display their memory usage."
+"find all files and directories named ""Regex"" in the specified path and unzip them forcefully."
+"find all files and directories modified within a certain time frame, excluding those with a specific name."
+get the IP address of the default gateway and its corresponding interface
+"list the detailed information of the file or directory named ""Regex"" in the current directory."
+find all files in the specified path with the given permission and print their names.
+cut the input string at the specified delimiter and print the specified field.
+find all files and directories in the specified path that are larger than the specified size.
+find files and directories with a specific name pattern in a given path.
+mount the directory at /absolute/path/to/some/where/else as a link named project1/link1.
+copy all files and directories in Path to a new file named Regex.
+find all files and directories with case-insensitive name matching _REGEX and apply a program to them.
+"search for the word ""Regex"" in a compressed file named ""Regex"" using grep."
+compare two sorted lists of files and directories in Path and print the differences
+find all files in the specified path that belong to the specified group.
+delete all files in Path that are older than Quantity minutes and match Regex.
+display the content of a file with line numbers and allow scrolling using less.
+find all symbolic links in the specified path.
+change the modification date of a file to match the date of another file
+get the version number of tmux and extract only the specified characters.
+find all files and directories in the specified path that match the given regular expression.
+"rename file using the value of the variable ""Regex"""
+mount the /usr/bin directory to /path/to/chroot/jail/usr/bin using the --bind option.
+calculate the total size of files in a directory and display the quantity
+find files and directories with specified permissions in a given path.
+"Set an alias ""foo"" with the value ""BAR=baz"" in the bash shell."
+change the permission of all directories in the specified path.
+change the permission of all directories in the specified path.
+sort and print the top Quantity files in Path based on their modification time.
+unset all environment variables in the current bash session.
+find all block special files with name _Regex in the specified path.
+"count the number of lines in the last 100 lines of file1 after passing through the command ""bar""."
+find all files and directories with names matching the regex pattern in the specified path and print their paths.
+list all processes with their parent processes and process IDs that match the regex pattern.
+find all files in the specified path with a specific name.
+find all files matching the regex pattern in the specified path and print their names.
+"print the string ""x"" ten times in a row, each on a new line."
+"find and replace the string ""Regex"" in all files in the specified directory."
+kill all processes in the session of the process with PID 21709.
+find files and directories in the specified path that match the given regex and have a creation time older than the specified timespan.
+rsync command to recursively copy files and directories with verbose output.
+create symbolic links for all files and directories with the name _Regex in the specified path.
+change ownership of /www/askapache.com to ask:ask in the background with low priority.
+"find files and directories with name matching Regex, excluding those modified within Timespan, and compress them using bzip2."
+find all files and directories matching the regex pattern in the specified path.
+find all files and directories with specified permissions in the given path.
+remove all .mpg files in the /home/luser directory using parallel processing.
+"find all files and directories named ""Regex"" in the current directory and its subdirectories, and search for the word ""Regex"" within them."
+count the number of files in the given path that match the specified regex pattern.
+"ssh into example.com and attach to a running screen session, then execute the ls command."
+"Create a new tmux session named ""vims"" with a detached vim window named ""vim0"" and open the file ""foo""."
+find all files and directories matching the regex in the given path and append them to a tar file.
+find all files and directories newer than File in the specified Path.
+"find all files in the specified path, excluding those with the name ""Regex"", and append the output to a file."
+"remove file ""File"" without prompting for confirmation."
+find files in a specific path with a certain pattern and execute a bash statement on each file.
+find all files in the specified path modified within a certain timespan.
+change the permission of all files in the specified path.
+extract and calculate the MD5 checksum of files matching the regex pattern.
+find all files and directories with names matching the regex pattern and print them.
+"echo a specified quantity of the word ""Regex"" repeatedly."
+find all symbolic links in the specified path and print their names.
+"rsync command to recursively copy files and directories, excluding files with the name ""Regex""."
+"Create an alias ""h"" for the command ""history"" in bash."
+"find files modified within a specific time range, concatenate their contents, and sort them."
+find all files with the extension .conf in the entire filesystem.
+"create a new directory named ""Directory"""
+list the top Quantity files in the current directory based on their modification time.
+change directory to the current directory and find all files and directories.
+find all files named _Regex in the specified path that are newer than _File.
+get the absolute path of a file or directory
+copy the most recent files in the directory to another file.
+randomly select a specified number of lines from a file and display them with line numbers.
+find files and directories with a specific name pattern in a given path.
+"count the number of occurrences of the word ""Regex"" in all files in the specified directory."
+count the number of occurrences of each unique line in the input.
+"find all occurrences of the word ""Regex"" in the file ""File"" and its subdirectories."
+convert all .m4a files in /home/family/Music to .ogg format using ffmpeg.
+find all files in a specific folder and calculate the SHA1 checksum.
+ssh into a remote server with X11 forwarding enabled.
+number all lines in a file and display the line numbers.
+copy file or directory with preserving permissions and quiet mode.
+"set the current shell's positional parameters to the output of the ""cal"" command with the current date and time."
+"mount all devices with /dev/sd and output the device number, name, and mount point."
+"count the occurrences of the word ""Regex"" in a compressed file and sort them in ascending order."
+find files and directories in Path modified within Quantity minutes.
+get the short hostname of the current machine.
+Remove the subversion package using the yum package manager.
+overwrite /dev/to with UUUUUUUUUUUUUUUUU by removing newlines from yes command output.
+find all files in the specified path with the given permission and print their names.
+"find all files and directories with the exact name ""Regex"" in the specified path."
+change the permission of all files in the specified path.
+find and remove all files and directories older than Timespan in Path.
+sort and display the content of a file in a human-readable format.
+find all directories in Path with a minimum depth of Quantity.
+remove all files and directories in Path that have not been modified in Timespan.
+find files and directories with a specific name pattern in a given path.
+"get the network configuration and filter out any lines that do not contain the word ""Regex""."
+move all files and directories with name _REGEX to Directory in Path.
+find all files in the current directory and its subdirectories and print their names.
+"number all lines, apply sed program, filter lines with regex, and apply awk program."
+find files in Path that were accessed Timespan ago.
+"remove all files and directories with the name ""Regex"" in the specified path."
+get the current date and time in seconds and nanoseconds format.
+"search for a specific word in files recursively, including line numbers and whole word matches."
+find all files in the specified path that contain the given regex pattern.
+find all files and directories in the specified path and print their names.
+#summarization: Display the top processes running on the system.
+find all unique file extensions in the current directory and its subdirectories.
+find all files and directories with specified permission and matching regex in given path.
+"search for the occurrence of ""Regex"" in the file ""File"" and display the file names."
+convert all .java files from cp1252 encoding to utf-8 encoding in current directory.
+"find all files and directories with name matching ""Regex"" in the given path and create a tar file."
+find all files and directories with the user name matching the regex pattern.
+"rename all files and directories with the name ""Regex"" in the given path."
+rename all files with .html extension to .txt extension in the current directory.
+find and remove files with name Regex in Path that have not been accessed in Timespan.
+print the current username
+curl http://www.example.com using proxy http://125.119.175.48:8909.
+"change the owner of all files and directories owned by ""Regex"" in the specified path."
+"sort and display the CPU usage, process ID, user, and command arguments in descending order."
+"find and display unique lines containing the word ""Regex"" from the output of the ""finger -l"" command."
+compare two files and check if they have the same content.
+find files modified within a certain timespan and copy them to a directory.
+find all files in the specified path with a specific name.
+Find all files and directories with names matching the given regex pattern in the entire filesystem.
+remove all files and directories with name _REGEX in specified path
+delete all symbolic links in the specified path.
+get the absolute path of the directory containing the bash script.
+kill the process running on port 3000.
+find files and directories with names matching the given regex pattern and print them.
+"change the ownership of all files and directories named ""Regex"" in the ""File"" directory."
+find all files and directories in the specified path that are larger than the specified size and match the given regex pattern.
+remove all files and directories with name _Regex in specified path.
+move all files with name _REGEX to directory File in the given path.
+"find all files and directories named ""Regex"" in the specified path and prompt for deletion."
+list all files and directories in the specified path with detailed information.
+"find the directory path of a program named ""YourProgram"" in the current directory and its subdirectories."
+"find all files and directories with a symbolic link named ""Regex"" in the specified path."
+"find all files matching the case-insensitive regex and move them to the ""File"" directory."
+count the number of non-empty files in the specified directory.
+find all files and directories owned by user Regex with name Regex.
+generate a bash script to change file permissions for all files in current directory.
+find all files in the specified path with a specific name.
+"find all files and directories named ""Regex"" in the specified path that are newer than the specified file."
+find all files in the specified path and execute a command on each file.
+Display the current value of the globstar option in the bash shell.
+find and remove empty directories modified between two specific files in a given path.
+"find all files in the current directory and its subdirectories, and replace all occurrences of ""xxx"" with ""yyy"" in each file."
+"monitor the CPU and memory usage of the process with the executable file ""a.out""."
+find all files and directories with names matching the regex pattern in the specified path.
+find all files in the specified path that match the given regular expression and print their names.
+get the operating system name
+kill the process running on port 6000 using lsof and sudo.
+"run the program.sh script as the user ""jetty"""
+"find all files in the specified path and its subdirectories, and apply a sed program to them."
+execute a command on each file or directory in the current directory and its subdirectories.
+find all files and directories in the current directory and execute a command on them.
+calculate the disk usage of a file and sort the results in descending order
+find all files in the specified directory and save the results to a temporary file.
+"find all files in the ""plsql"" directory with permissions -220 and display their details."
+find files and directories in the specified path modified within a certain timespan.
+"add ""yes this is the text I want to add to a file"" to myFile.txt"
+find all files in the specified path with names matching the given regular expression.
+list all unique directories in a tar file.
+"find all files and directories named ""Regex"" in the specified path and print their paths."
+print the first Quantity bytes of the File.
+"print the detailed information of the file or directory named ""Regex"""
+"find all files and directories named ""expect"" in the entire filesystem."
+"list all directories in the specified path, showing their details in reverse order of modification time."
+"ssh into a server with the name ""Regex""."
+count the number of lines in all files and directories with name _REGEX in the given path.
+find all files and directories with specified permissions in the given path.
+find files and directories with names matching the given regex pattern and print them.
+"find all directories in the given path that do not have the name ""Regex"" and print them."
+find all files in the specified path that contain the specified regex pattern and print the line number and file name.
+find all files and directories in the specified path that have been modified more than a certain timespan ago.
+display the contents of a file or files in the terminal.
+read a specified quantity of input and store it in a variable named Regex.
+ping a specified quantity of times and apply a sed program to the output.
+"monitor the processes with process IDs matching the regular expression ""Regex"""
+generate a random string of 1024 characters and remove newlines.
+"find all files starting with ""custlist"" and store their names and paths in a hash map."
+find all files in the specified path with a specific name and display their details.
+change the permission of all directories in the specified path.
+find all directories in Path with name Regex and apply sed Program.
+enable history and histexpand options in bash.
+ssh into a server and run the xeyes command in the background.
+"execute the ""who"" command and use the ""sed"" program to modify the output."
+delete all files in the specified path that do not match the given regex.
+find files and directories in Path that are larger than Size and have been modified or accessed within Timespan.
+"Create an alias ""lvim"" for the command ""vim -c ""normal '0""""."
+"find all files in the specified path and its subdirectories, excluding those matching the given regular expression, and perform a sed command on each file."
+find files and directories in the specified path.
+"execute the command ""echo Regex"" on all files and directories in the specified path."
+find all files and directories with name matching Regex or size larger than Size.
+"display the hexadecimal content of a file, skipping and reading specific bytes, and then extracting a specific quantity of lines using awk."
+"print the permissions, file name, size in bytes, and file type for all files and directories with the name _REGEX in the specified path."
+compress all files in the specified path using bzip2.
+"join two files based on a common field using the delimiter ""Regex""."
+remove write permission for group from all files and directories in current directory.
+"read a regular expression from user input and store it in the variable ""Regex""."
+change the permission of all directories in the specified path.
+find all files accessed within the last 10 days and save the list in March.files.
+"get the date, time, and quantity of bash command history and display it with a specific format"
+Count the number of lines in all .cs files in a git repository.
+"find all files in the specified path, concatenate their contents, remove non-matching characters, and filter for lines containing the specified regex pattern."
+sort the file by a specific field and remove duplicate lines.
+convert the content of a file to octal representation.
+copy files and directories with options and arguments specified in the help documentation
+find files and directories with names matching the given regex pattern and print them.
+"format and compile the C++ code in submission.cpp, then calculate its MD5 hash."
+"find the location of the executable file named ""Regex"" in the system."
+find files and directories with specified permission in the given path.
+zcat and awk are used to process the contents of a file and display the first few lines.
+find files and directories in the specified path.
+find files and directories with names matching the given regex pattern and print them.
+find the basename of all files and directories in the given path.
+change the owner of the file to the one specified by the regular expression
+find all symbolic links in the specified path that match the given regex.
+find files and directories with a specific name pattern in a given path.
+"find all files and directories containing the word ""Regex"" in the specified path."
+ssh into a remote machine and check the version of gcc.
+extract and navigate to the directory of a tar.gz archive.
+"find the location of the executable file named ""Regex"" in the system."
+"count the number of files that contain the word ""Regex"" in the given path."
+"find all files and directories with the name ""Regex"" and search for ""Regex"" within them."
+find all files and directories in the specified path that do not have the name specified by the regex.
+find files and directories with a specific name pattern in a given path.
+count the number of files in the current directory and its subdirectories.
+move all files in Path to File directory
+count the number of files and directories in the specified path.
+read and hide user input from the terminal.
+find all directories in /var up to a depth of 2 and print their names and modification times.
+"display the contents of a file with line numbers using the ""less"" command."
+find all files in the specified path that match the given regular expression and print their names.
+"sort the output of the ""find"" command."
+find all files and directories in the given path and print their names.
+sed Program File: apply sed program to file and print the result.
+change the permission of all directories in the specified path to the specified permission.
+find all files named target.out in the starting path and pass them to simpleGrepScript.sh.
+"find all occurrences of the word ""Regex"" in files and directories within the specified path."
+move all files and directories with name _Regex to the File directory.
+find all files and directories with a case-insensitive name matching the regex pattern.
+"find all files named ""Regex"" in the current directory and its subdirectories."
+find process tree of a program named Regex and filter the output to only show lines containing the word Regex.
+"combine two files with a delimiter, then apply a sed program to the output."
+calculate the total size of all files in the current directory and its subdirectories.
+paste all text files together using newline as delimiter.
+find and replace a specific pattern in files located in a given directory.
+create a tar file containing all files and directories in the specified path.
+copy all files and directories in Path to current directory with verbose output.
+"find all directories named ""Regex"" in the specified path and exclude other file types."
+"find and print all occurrences of the word ""Regex"" in the file ""File""."
+remove all files in the specified path that have been modified within a certain timespan.
+find all .txt files in current directory and move them to foo directory with a new extension.
+Enable debugging mode in bash.
+find files and directories matching a regular expression in a specified path and print their names.
+find files and directories with a specific name pattern in a given path.
+find all files in the specified path.
+rename all files and directories matching the regex pattern in the given path.
+find all directories in Path with Permission and change their permissions to Permission.
+"remove all occurrences of the word ""Regex"" from the input string."
+find files and directories with a specific name pattern in a given path.
+print the current working directory and the name of the parent directory.
+get the IP address of the host and extract a specific field using a delimiter.
+"List all processes with their parent process IDs that have the name ""Regex""."
+"compare two files and show the differences recursively, excluding patterns specified in a file."
+"find all directories named ""Regex"" in the specified path, sort them, and remove duplicates."
+find all files and directories in the given path that do not match the specified regex pattern.
+kill all child processes of the current process.
+change the permission of a file or directory.
+change the permission of a file or directory to the specified permission.
+get the IP address from the output of ifconfig command using regular expression.
+create a temporary file with a unique name using the mktemp command.
+number the lines in a file and apply a sed program to modify them.
+split the content of a file into individual characters and format them into four columns.
+copy all non-empty files in Path to another file with the same name.
+pipe the output of a command to both the terminal and a logfile
+compress the file named Regex using gzip.
+find files matching a regex pattern in a given path and count the number of lines
+find all files in the specified path.
+"find all files and directories, print their names and UUIDs sorted by UUID."
+change the permission of all files with name _REGEX in the specified path.
+"sort the content of a file and remove duplicate lines, while also counting the occurrences of each line."
+find files in Path that were modified within a specified Timespan.
+compress all cache.html files in the current directory using gzip.
+awk program to format the output of another awk program into columns.
+find all directories in the specified path with a minimum and maximum depth.
+"find files and directories in Path that are larger than Size and older than Timespan, and list their details."
+copy file to multiple directories based on modification time.
+"change the ownership of all files and directories named ""Regex"" in the ""File"" directory."
+"find all files in the specified path and print the word ""Regex"" twice before each file name."
+list all files and directories with detailed information in the current directory.
+find all files and directories with the specified UID in the given path.
+find and remove files and directories with a specific name in a given path.
+find all files in the specified path with names matching the given regular expression.
+"find and archive files and directories, excluding specific paths, using gnutar."
+Enable the execution of a script to fail if any command within it fails.
+"rename all files and directories named ""Regex"" to ""Regex"" in the current directory."
+set tmux option to automatically renumber windows
+count the number of files in each directory and sort them in descending order.
+find all files and directories with name matching Regex in the given Path.
+change the permission of all directories in the specified path.
+convert all ipython notebooks in the current directory to other formats using nbconvert.
+"source the file located in the same directory as the variable ""Regex""."
+find all files with names matching the regex pattern in the specified path.
+"create a new directory named ""Directory"""
+find all files and directories with name matching the regex in the given path and display their details.
+create a file with the current date and time in the filename.
+find all directories in Path with Permission and change their permissions to Permission.
+change the permission of all files and directories with name _REGEX in the given path.
+find files and directories modified within a certain quantity of minutes in a specific path.
+find all files in the specified path that match the given regular expression and print their names.
+find all files in the specified path that match the given regex and have been modified within the specified timespan.
+find all files and directories in the given path that do not match the specified regex.
+"find and remove all files and directories with the name ""*prefs copy"" in the ""/mnt/zip"" directory."
+find files and directories with a specific name and size in a given path.
+"find all files and directories named ""Regex"" in the specified path and open them in vim."
+sort directories in Path by their last modification time.
+find all files with name Regex in Path and replace Regex with Program using sed.
+"grep for the word ""Regex"" in the file ""File"" and replace it with itself."
+find files and directories with a specific name pattern in a given path.
+"get the network configuration and filter the output to only show lines containing the word ""Regex""."
+"create a new directory named ""Directory"""
+"dig for the occurrence of the word ""Regex"" in the given input."
+"find and delete all files with the extension .c* in the current directory and its subdirectories, and log the deleted files in log_del.txt."
+change directory to the parent directory of all files and directories with name Regex.
+find all files and directories modified within a certain quantity of minutes in the specified path.
+find all files and directories in the specified path.
+find all files and directories in the current directory and print their inode numbers.
+"reverse the input string, cut it at the specified delimiter, and reverse it back."
+"display the contents of a file named ""File"""
+bind Regex to a bash code.
+find all files and directories with name matching the regex in the given path and list them.
