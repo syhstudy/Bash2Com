@@ -1,22 +1,8 @@
-I. Complementarity Analysis
+I. Example.
 ==========================================
 
-![image](https://github.com/syhstudy/Bash2Com/assets/93321396/57e5dc25-5c8d-4571-8789-bd7621951cb9)
+![image](https://github.com/syhstudy/Bash2Com/assets/93321396/4f27bc83-eea0-4b84-bad7-ed33aa57d43f)
+Fig. 1. Overflow of Bash2Com.
 
+We use an example to understand model architecture in Fig. 1. The model can generate comments.
 
-
-
-
-
-
-
-
-II. Human Study Cases
-==========================================
-Case1.
-Bash Code: cat $( whoami )
-Ground Truth: print current user's mail file
-NNGen: print current user name
-CodeT5: print file name of current user
-BASHEXPLAINER: print user name of current user
-Bash2Com: print file content of current user
